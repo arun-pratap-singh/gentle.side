@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>THE ROYAL ENFIELD</title>
+		<link rel="icon" href="icon.png" type="image/x-icon" />
+		<link rel="stylesheet" href="topnav.css" />
+		<link rel="stylesheet" href="cards.css" />
+		<link rel="stylesheet" href="footer.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul class="sidebar">
+					<li class="closemenu" onclick="hideSidebar()">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							height="30"
+							viewBox="0 -960 960 960"
+							width="30"
+							fill="#e02c1c"
+						>
+							<path
+								d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+							/>
+						</svg>
+					</li>
+					<li class="home"><a href="#">Home</a></li>
+					<li><a href="#">Since 1901</a></li>
+
+					<li>
+						<a
+							href="https://www.google.com/maps/place/Nepal+Singh+Rathore/@27.6026072,74.3957353,978m/data=!3m1!1e3!4m6!3m5!1s0x396b2f268c73ea23:0xd091462da739028b!8m2!3d27.6028808!4d74.394527!16s%2Fg%2F11lcb_lpm4?authuser=0&entry=ttu"
+							>Locate us</a
+						>
+					</li>
+					<li><a href="#">Contact</a></li>
+					<li>
+						<a
+							href="file:///C:/Arun/Frontend/royal%20enfield%20store/login%20page%20code/login.html#contact"
+							>Login</a
+						>
+					</li>
+				</ul>
+			</nav>
+			<nav>
+				<ul>
+					<li>
+						<a href="#"><img src="logo.svg" style="height: 35px" /></a>
+					</li>
+					<li class="hideOnMobile">
+						<a href="#"
+							>Home<svg
+								xmlns="http://www.w3.org/2000/svg"
+								height="16"
+								width="16"
+								fill="#e02c1c"
+								style="margin-left: 5px"
+								viewBox="0 0 512 512"
+							>
+								<!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+								<path
+									d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+								/>
+							</svg>
+						</a>
+					</li>
+					<li class="hideOnMobile"><a href="#">Since 1901</a></li>
+
+					<li class="hideOnMobile">
+						<a
+							href="https://www.google.com/maps/place/Nepal+Singh+Rathore/@27.6026072,74.3957353,978m/data=!3m1!1e3!4m6!3m5!1s0x396b2f268c73ea23:0xd091462da739028b!8m2!3d27.6028808!4d74.394527!16s%2Fg%2F11lcb_lpm4?authuser=0&entry=ttu"
+							>Locate us</a
+						>
+					</li>
+					<li class="hideOnMobile"><a href="#">Contact</a></li>
+					<li class="hideOnMobile" id="topmenu">
+						<a
+							href="file:///C:/Arun/Frontend/royal%20enfield%20store/login%20page%20code/login.html#contact"
+							>Login</a
+						>
+					</li>
+					<li class="openmenu" onclick="showSidebar()">
+						<a href="#"
+							><svg
+								xmlns="http://www.w3.org/2000/svg"
+								height="30"
+								viewBox="0 -960 960 960"
+								width="30"
+								fill="white"
+							>
+								<path
+									fill="none"
+									stroke="currentColor"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="48"
+									d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+								/></svg
+						></a>
+					</li>
+				</ul>
+			</nav>
+			<script>
+				function showSidebar() {
+					const sidebar = document.querySelector(".sidebar");
+					sidebar.style.display = "flex";
+				}
+				function hideSidebar() {
+					const sidebar = document.querySelector(".sidebar");
+					sidebar.style.display = "none";
+				}
+			</script>
+			<!-- yha tak navbar or menu wala ha -->
+
+			<div class="container">
+				<div class="card">
+					<div class="banner-image">
+						<img src="bullet-350.jpg" class="banner-image" />
+					</div>
+					<h1>Bullet 350</h1>
+					<div class="button-wrapper">
+						<button class="btn1">Book A Test Ride</button>
+						<button class="btn2">Save</button>
+						<p>Price - ₹1.24 lakhs - ₹2.16 lakhs</p>
+					</div>
+				</div>
+				<!-- 2nd -->
+				<div class="card">
+					<div class="banner-image">
+						<img src="classic-500.png" class="banner-image" />
+					</div>
+					<h1>classic 500</h1>
+					<div class="button-wrapper">
+						<button class="btn1">Book A Test Ride</button>
+						<button class="btn2">Save</button>
+						<p>Price - ₹1.79 lakhs - ₹2.16 lakhs</p>
+					</div>
+				</div>
+				<!-- 3rd -->
+				<div class="card">
+					<div class="banner-image">
+						<img src="classic-350.jpg" class="banner-image" />
+					</div>
+					<h1>classic 350</h1>
+					<div class="button-wrapper">
+						<button class="btn1">Book A Test Ride</button>
+						<button class="btn2">Save</button>
+						<p>Price - ₹1.93 lakhs - ₹2.24 lakhs</p>
+					</div>
+				</div>
+				<!-- 4th -->
+				<div class="card">
+					<div class="banner-image">
+						<img src="continental-gt.jpg" class="banner-image" />
+					</div>
+					<h1>continental gt 650</h1>
+					<div class="button-wrapper">
+						<button class="btn1">Book A Test Ride</button>
+						<button class="btn2">Save</button>
+						<p>Price - ₹3.14 lakhs - ₹3.45 lakhs</p>
+					</div>
+				</div>
+				<!-- 5th -->
+				<div class="card">
+					<div class="banner-image">
+						<img src="hunter-350.jpg" class="banner-image" />
+					</div>
+					<h1>hunter 350</h1>
+					<div class="button-wrapper">
+						<button class="btn1">Book A Test Ride</button>
+						<button class="btn2">Save</button>
+						<p>Price - ₹1.49 lakhs - ₹1.74 lakhs</p>
+					</div>
+				</div>
+				<!-- 6th -->
+				<div class="card">
+					<div class="banner-image">
+						<img src="interceptor.jpg" class="banner-image" />
+					</div>
+					<h1>interceptor</h1>
+					<div class="button-wrapper">
+						<button class="btn1">Book A Test Ride</button>
+						<button class="btn2">Save</button>
+						<p>Price - ₹3.02 lakhs - ₹3.30 lakhs</p>
+					</div>
+				</div>
+				<!-- 7th -->
+				<div class="card">
+					<div class="banner-image">
+						<img src="meteor-350.jpg" class="banner-image" />
+					</div>
+					<h1>meteor 350</h1>
+					<div class="button-wrapper">
+						<button class="btn1">Book A Test Ride</button>
+						<button class="btn2">Save</button>
+						<p>Price - ₹2.05 lakhs - ₹2.29 lakhs</p>
+					</div>
+				</div>
+				<!-- 8th -->
+				<div class="card">
+					<div class="banner-image">
+						<img src="scram-411-listing.jpg" class="banner-image" />
+					</div>
+					<h1>scram 411</h1>
+					<div class="button-wrapper">
+						<button class="btn1">Book A Test Ride</button>
+						<button class="btn2">Save</button>
+						<p>Price - ₹2.06 lakhs - ₹2.11 lakhs</p>
+					</div>
+				</div>
+				<!-- 9th -->
+				<div class="card">
+					<div class="banner-image">
+						<img src="super-meteor 650.jpg" class="banner-image" />
+					</div>
+					<h1>super meteor 650</h1>
+					<div class="button-wrapper">
+						<button class="btn1">Book A Test Ride</button>
+						<button class="btn2">Save</button>
+						<p>Price - ₹3.54 lakhs - ₹3.85 lakhs</p>
+					</div>
+				</div>
+				<!-- 10th -->
+				<div class="card">
+					<div class="banner-image">
+						<img src="new-himalayan.jpg" class="banner-image" />
+					</div>
+					<h1>new himalayan</h1>
+					<div class="button-wrapper">
+						<button class="btn1">Book A Test Ride</button>
+						<button class="btn2">Save</button>
+						<p>Price - ₹2.15 lakhs - ₹2.28 lakhs</p>
+					</div>
+				</div>
+				<!-- 11th -->
+				<div class="card">
+					<div class="banner-image">
+						<img src="himalayan-650.png" class="banner-image" />
+					</div>
+					<h1>himalayan 650</h1>
+					<div class="button-wrapper">
+						<button class="btn1">Book A Test Ride</button>
+						<button class="btn2">Save</button>
+						<p>Price - ₹4 lakhs - ₹4.09 lakhs</p>
+					</div>
+				</div>
+				<!-- 12th -->
+				<div class="card">
+					<div class="banner-image">
+						<img src="shotgun-650.png" class="banner-image" />
+					</div>
+					<h1>Shotgun 650</h1>
+					<div class="button-wrapper">
+						<button class="btn1">Book A Test Ride</button>
+						<button class="btn2">Save</button>
+						<p>Price - ₹3 lakhs - ₹3.50 lakhs</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<footer>
+			<div class="footer">
+				<li class="contact">
+					<a href="https://twitter.com/arun_rathore18"
+						><i class="fab fa-twitter" style="font-size: 36px"></i
+					></a>
+				</li>
+				<li class="contact">
+					<a
+						href="https://www.linkedin.com/in/arun-pratap-singh-rathore-a932a0295/"
+						><i class="fab fa-linkedin" style="font-size: 36px"></i
+					></a>
+				</li>
+				<li class="contact">
+					<a href="https://github.com/arun-pratap-singh"
+						><i class="fab fa-github" style="font-size: 36px"></i
+					></a>
+				</li>
+			</div>
+		</footer>
+	</body>
+</html>
