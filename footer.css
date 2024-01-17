@@ -19,6 +19,11 @@
 	margin: 1em;  
 }
 
+.contact:hover {
+	padding-bottom: 5px;
+	transition-delay: 1.5s;
+}
+
 }
 .copyright {
 	font-size: larger;
