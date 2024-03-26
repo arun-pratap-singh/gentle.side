@@ -34,11 +34,11 @@ body {
 	justify-content: center;
 }
 .div-for-loginform {
-	background: none;
-
-	border: none;
+	background: linear-gradient(to top right, #2b2727 -50%, #0f1429 100%);
+	box-shadow: inset #000000 0px 0px 8px 4px;
+	border: 2px solid #e0eaff;
+	border-radius: 15px;
 	text-align: center;
-
 	margin-bottom: 45px;
 	box-sizing: border-box;
 	position: fixed;
