@@ -37,11 +37,11 @@ body {
 	background: linear-gradient(to top right, #2b2727 -50%, #0f1429 100%);
 	box-shadow: inset #000000 0px 0px 8px 4px;
 	border: 2px solid #e0eaff;
+	padding: 30px;
 	border-radius: 15px;
 	text-align: center;
-	margin-bottom: 45px;
 	box-sizing: border-box;
-	position: fixed;
+	margin: 0 20px;
 }
 
 .div-for-loginform-top-des1 {
