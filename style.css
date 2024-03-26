@@ -153,10 +153,6 @@ nav li:first-child {
 	box-shadow: inset 0px 1px 4px 1.5px rgb(255 255 255);
 	overflow: hidden;
 }
-.card:hover {
-	transform: scale(1.085);
-	transition: all 1s ease-in-out;
-}
 .banner-image {
 	background-position: center;
 	background-size: cover;
