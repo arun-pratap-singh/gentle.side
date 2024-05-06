@@ -123,7 +123,7 @@ nav li:first-child {
 	}
 }
 @media (min-width: 820px) {
-	.hideOnMoblile {
+	.hideOnMobile {
 		display: none;
 	}
 }
